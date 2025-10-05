@@ -166,7 +166,7 @@ const Descubrir: React.FC = () => {
             FALSE_POSITIVE: 0.10
           },
           classification: "CANDIDATE",
-          confidence: 0.78,
+          confidence: 0.88,
           discoveryDate: "2024-01-20"
         },
         {
@@ -199,7 +199,7 @@ const Descubrir: React.FC = () => {
             FALSE_POSITIVE: 0.10
           },
           classification: "CANDIDATE",
-          confidence: 0.72,
+          confidence: 0.90,
           discoveryDate: "2023-09-30"
         },
         {
@@ -561,7 +561,7 @@ const Descubrir: React.FC = () => {
                     <h3 className="text-3xl font-bold text-white">Subir Dataset</h3>
                     <p className="text-gray-300 mt-1">Analiza datos de tránsitos planetarios desde archivos CSV , VOTable , IPAC , Tab-Separated</p>
                   </div>
-                </div>
+                </div>F
                 <button
                   onClick={resetSearch}
                   className="text-purple-400 hover:text-white transition-all duration-300 flex items-center gap-2 bg-white/5 hover:bg-purple-500/20 px-4 py-3 rounded-xl border border-white/10 hover:border-purple-500/30"
