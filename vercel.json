@@ -3,7 +3,11 @@
   "builds": [
     {
       "src": "package.json",
-      "use": "@vercel/static-build"
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "dist",
+        "buildCommand": "npm install && npx vite build"
+      }
     }
   ],
   "routes": [
@@ -13,6 +17,7 @@
     }
   ],
   "installCommand": "npm install",
-  "buildCommand": "npm run build",
-  "outputDirectory": "dist"
+  "buildCommand": "npx vite build",
+  "outputDirectory": "dist",
+  "framework": "vite"
 }
